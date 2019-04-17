@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPLCProject2", "MyPLCProject2\MyPLCProject2.csproj", "{82E736F2-57E2-44FD-8541-0DD54C54F3A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibplctagWrapper", "LibplctagWrapper\LibplctagWrapper.csproj", "{394ABFC2-E570-462E-9994-37B33C348702}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82E736F2-57E2-44FD-8541-0DD54C54F3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E736F2-57E2-44FD-8541-0DD54C54F3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E736F2-57E2-44FD-8541-0DD54C54F3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E736F2-57E2-44FD-8541-0DD54C54F3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394ABFC2-E570-462E-9994-37B33C348702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394ABFC2-E570-462E-9994-37B33C348702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394ABFC2-E570-462E-9994-37B33C348702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394ABFC2-E570-462E-9994-37B33C348702}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA0FBD7C-0F33-4FD2-99BB-C0602375CD6B}
+	EndGlobalSection
+EndGlobal

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using StandardLib;
 
 namespace MyPLCProject2
 {
@@ -17,7 +18,7 @@ namespace MyPLCProject2
 		{
 			try
 			{
-				var tag = new Tag("172.20.130.101", "1, 0", CpuType.LGX, "ALARM_FILE[0]", DataType.Int16, 100, 1);
+				var tag = new Tag("172.20.113.115", "1, 0", CpuType.LGX, "OPCint[0]", DataType.Int16, 1, 1);
 				using (var client = new Libplctag())
 				{
 					client.AddTag(tag);
@@ -47,7 +48,7 @@ namespace MyPLCProject2
 
 					for (int i = 1; i < tag.ElementCount; i++)
 					{
-						Console.WriteLine($"         |012345678012345678|");
+
 						Console.WriteLine($"ALARM[{i}]={Convert.ToString(client.GetInt16Value(tag, (i * tag.ElementSize)), 2)}\n");
 					}
 				}

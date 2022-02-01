@@ -4,17 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82E736F2-57E2-44FD-8541-0DD54C54F3A9}</ProjectGuid>
+    <ProjectGuid>{B582F717-111D-42BA-B18D-0972013B5E42}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MyPLCProject2</RootNamespace>
-    <AssemblyName>MyPLCProject2</AssemblyName>
+    <RootNamespace>IPCController</RootNamespace>
+    <AssemblyName>IPCController</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -48,16 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LibplctagWrapper\LibplctagWrapper.csproj">
-      <Project>{394abfc2-e570-462e-9994-37b33c348702}</Project>
-      <Name>LibplctagWrapper</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\StandardLib\StandardLib.csproj">
-      <Project>{c4d3f5b9-3484-4e3a-b76d-61327d8102e8}</Project>
-      <Name>StandardLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
